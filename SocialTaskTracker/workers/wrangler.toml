@@ -10,7 +10,7 @@ workers_dev = true
 # pattern = "/api/auth/*"
 # zone_name = "socialtaskhub.com"
 
-# Triggers (Optional, if you need scheduled jobs)
+# Scheduled cron jobs (Remove this block if not needed)
 [triggers]
-crons = ["0 0 * * *"]  # Example: Runs daily at midnight UTC
+crons = []
 
