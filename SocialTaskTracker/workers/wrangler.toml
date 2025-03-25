@@ -12,4 +12,5 @@ workers_dev = true
 
 # Triggers (Optional, if you need scheduled jobs)
 [triggers]
-crons = []
+crons = ["0 0 * * *"]  # Example: Runs daily at midnight UTC
+
