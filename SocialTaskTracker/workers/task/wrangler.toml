@@ -1,0 +1,15 @@
+
+name = "task-api"
+main = "index.ts"
+compatibility_date = "2023-01-01"
+
+[vars]
+FIREBASE_PROJECT_ID = ""
+FIREBASE_CLIENT_EMAIL = ""
+
+[env.production]
+vars = { ENVIRONMENT = "production" }
+
+[[kv_namespaces]]
+binding = "AUTH_TOKENS"
+id = ""

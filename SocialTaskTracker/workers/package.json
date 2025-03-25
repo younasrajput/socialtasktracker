@@ -1,0 +1,19 @@
+{
+  "name": "socialtask-hub-auth-api",
+  "version": "1.0.0",
+  "description": "Cloudflare Worker API for SocialTask Hub authentication with Firebase Firestore",
+  "main": "auth/index.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler publish"
+  },
+  "dependencies": {
+    "firebase-admin": "^11.10.1",
+    "itty-cors": "^0.3.6",
+    "itty-router": "^4.0.23"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240314.0",
+    "wrangler": "^3.25.0"
+  }
+}

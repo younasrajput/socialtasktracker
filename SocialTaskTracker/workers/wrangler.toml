@@ -1,0 +1,24 @@
+name = "socialtaskhub-auth"
+main = "auth/index.js"
+compatibility_date = "2023-12-01"
+
+# Specify environment variables needed for Firebase
+# These will be set using 'wrangler secret put' command
+# [vars]
+# Secrets are encrypted environment variables that are only exposed to your Worker
+# These should be set using 'wrangler secret put'
+# FIREBASE_PROJECT_ID
+# FIREBASE_PRIVATE_KEY_ID
+# FIREBASE_PRIVATE_KEY
+# FIREBASE_CLIENT_EMAIL
+# FIREBASE_CLIENT_ID
+# FIREBASE_CLIENT_CERT_URL
+
+# Configure routes 
+[routes]
+pattern = "/api/auth/*"
+zone_name = "socialtaskhub.com"
+
+# Deploy to edge
+[triggers]
+crons = []

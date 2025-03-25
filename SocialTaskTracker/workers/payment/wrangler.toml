@@ -1,0 +1,13 @@
+name = "socialtaskhub-payment-api"
+main = "index.js"
+compatibility_date = "2023-09-01"
+
+# Configure environment variables and secrets here
+# [vars]
+# MY_VARIABLE = "my-value"
+
+# Use the same binding pattern to access secrets from auth worker
+# [[d1_databases]]
+# binding = "DB"
+# database_name = "my-database"
+# database_id = "xxx"
